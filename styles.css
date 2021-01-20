@@ -23,11 +23,12 @@ body{
 }
 
 .channel{
-    width: 120px;
+    width: 140px;
     height: 80px;
     border-radius: 10px;
     margin-left: 5px;
     margin-bottom: 8px;
+    border: 1px solid black;
 }
 
 .channel-img{
