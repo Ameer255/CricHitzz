@@ -22,7 +22,7 @@ body{
 }
 
 .channel{
-    width: 157px;
+    width: 162px;
     height: 105px;
     border-radius: 10px;
     margin-left: 1px;
@@ -34,7 +34,7 @@ body{
 width: 100%;
 height: 65%;
 text-align: center;
-background-color: red;
+background-color: green;
 }
 .channel-img img{
     width: 100%;
