@@ -8,7 +8,6 @@ body{
 .container{
     width: 90%;
     margin-top: 3%;
-    border: 2px solid black;
     padding: 5px;
     display: flex;
     flex-wrap: wrap;
@@ -23,8 +22,8 @@ body{
 }
 
 .channel{
-    width: 140px;
-    height: 80px;
+    width: 155px;
+    height: 86px;
     border-radius: 10px;
     margin-left: 5px;
     margin-bottom: 8px;
