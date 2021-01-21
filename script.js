@@ -1,3 +1,5 @@
+alert('whats happening');
+
 function play(channel) {
   let url = channel.id
   console.log(url)
@@ -14,7 +16,7 @@ alert("playing);
         console.log('failed...')
         document.querySelector('.container').style.display='none';
 document.querySelector('.no-internet').style.display='block';
-alert('failed);
+alert('failed');
 
     })
     
