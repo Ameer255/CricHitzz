@@ -8,11 +8,13 @@ function play(channel) {
       if (data) {
         console.log('success')
         window.location.href=url;
+aler("playing);
       }
     }).catch(e=>{
         console.log('failed...')
         document.querySelector('.container').style.display='none';
 document.querySelector('.no-internet').style.display='block';
+alert('failed);
 
     })
     
