@@ -7,11 +7,11 @@ function play(channel) {
     .then((data) => {
       if (data) {
         console.log('success')
-        location.replace(url)
+        window.location.href=url;
       }
     }).catch(e=>{
         console.log('failed...')
-        location.replace('https://ameer255.github.io/CricHitzz/NoInternet.html')
+        window.location.href='https://ameer255.github.io/CricHitzz/NoInternet.html';
     })
     
 }
