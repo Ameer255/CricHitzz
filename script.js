@@ -10,7 +10,7 @@ function play(channel) {
       if (data) {
         console.log('success')
         window.location.href=url;
-alert("playing);
+alert("playing");
       }
     }).catch(e=>{
         console.log('failed...')
