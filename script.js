@@ -11,7 +11,9 @@ function play(channel) {
       }
     }).catch(e=>{
         console.log('failed...')
-        window.location.href='https://ameer255.github.io/CricHitzz/NoInternet.html';
+        document.querySelector('.container').style.display='none';
+document.querySelector('.no-internet').style.display='block';
+
     })
     
 }
