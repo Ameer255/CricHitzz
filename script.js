@@ -11,7 +11,7 @@ function play(channel) {
       }
     }).catch(e=>{
         console.log('failed...')
-        location.replace()
+        location.replace('https://ameer255.github.io/CricHitzz/NoInternet.html')
     })
     
 }
