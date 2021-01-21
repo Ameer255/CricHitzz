@@ -8,7 +8,7 @@ function play(channel) {
       if (data) {
         console.log('success')
         window.location.href=url;
-aler("playing);
+alert("playing);
       }
     }).catch(e=>{
         console.log('failed...')
