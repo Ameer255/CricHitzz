@@ -10,8 +10,7 @@ function play(channel) {
       if (data) {
         console.log('success')
         window.location.href=url;
-        swal("Channel Loading...", "Please Wait, This May Take a Few Seconds
-"); 
+        swal("Channel Loading...", "Please Wait, This May Take a Few Seconds"); 
       }
     }).catch(e=>{
         console.log('failed...')
