@@ -10,13 +10,15 @@ function play(channel) {
       if (data) {
         console.log('success')
         window.location.href=url;
-alert("playing");
+        swal("Channel Loading...", "Please Wait, This May Take a Few Seconds
+"); 
       }
     }).catch(e=>{
         console.log('failed...')
-        document.querySelector('.container').style.display='none';
+        /*document.querySelector('.container').style.display='none';
 document.querySelector('.no-internet').style.display='block';
-alert('failed');
+alert('failed');*/
+swal("No Internet Connection..!", 'warning'); 
 
     })
     
