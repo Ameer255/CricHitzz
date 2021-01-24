@@ -1,4 +1,4 @@
-alert('whats happening');
+
 
 function play(channel) {
   let url = channel.id
@@ -17,7 +17,7 @@ function play(channel) {
         console.log('failed...')
         /*document.querySelector('.container').style.display='none';
 document.querySelector('.no-internet').style.display='block';
-alert('failed');*/
+*/
 swal("No Internet Connection..!", 'warning'); 
 
     })
