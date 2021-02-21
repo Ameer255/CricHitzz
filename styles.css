@@ -31,7 +31,6 @@ body{
 }
 
 .channel:hover{
-    scale: 0.95;
     opacity : 0.85;
 }
 
